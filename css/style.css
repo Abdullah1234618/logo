@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    direction: rtl;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+   background-color: black;
+    color: antiquewhite;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid blue;
+}
+header a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+header #brand{
+    float: right;
+
+}
+header #brand h1{
+    margin: 0;
+    background-color:black;
+  
+
+}
+header nav{
+    float: left;
+    margin-top: 10px;
+
+}
+header .current{
+    color: rgb(61, 24, 24);
+    font-weight: bold;
+}
+header a.hover{
+    color: brown;
+    font-weight: bold;
+
+}
+#showcase{
+    
+    min-height: 400px;
+    background: url("../imges/study.jpg") no-repeat center;
+    background-size: cover;
+}
+#newslatter{
+    padding: 15px;
+    color: antiquewhite;
+    background: black;
+
+}
+#newslatter h1{
+    float: right;
+
+}
+#newslatter form{
+    float: left;
+    margin-top: 15px;
+}
+#newslatter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+   
+}
+.button{
+
+    height: 38px;
+    background: antiquewhite;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: blueviolet;
+   
+}
+#boxes{
+    margin-top: px;
+}
+#boxes .box{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: antiquewhite;
+  background-color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px
+}
+
+@media (max-width:768px){
+    header #brand,
+    header nav,
+    header nav li,
+    #newslater h1,
+    #newslater form,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    {
+        padding-bottom: 20px;
+    }
+    #newslatter .button
+    {
+        display: block;
+        width: 100%;
+    }
+    #newslatter form input[type="email"]
+    {
+        width:100%;
+        margin-bottom: 5px; 
+    }
+}
+
+
